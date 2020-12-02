@@ -4,6 +4,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 nav .container a {
     color: #46A3FF !important;
 }
@@ -131,7 +135,7 @@ nav button:focus {
 }
 
 #myPic {
-    border-radius: 50%;
+    object-fit: contain;
 }
 
 figure {
