@@ -9,7 +9,7 @@ $(document).ready(function() {
                 "transition": "0.8s ease-in-out",
             });
 
-            $(".navbar>.container>div>ul>li>button").removeClass('btn-outline-light').addClass('btn-outline-primary');
+            $(".navbar>.container>div>ul>li>a>button").removeClass('btn-outline-light').addClass('btn-outline-primary');
 
             $("nav i").css({
                 "color": "#46A3FF"
@@ -25,7 +25,7 @@ $(document).ready(function() {
                 "box-shadow": "none",
             });
 
-            $(".navbar>.container>div>ul>li>button").removeClass('btn-outline-primary').addClass('btn-outline-light');
+            $(".navbar>.container>div>ul>li>a>button").removeClass('btn-outline-primary').addClass('btn-outline-light');
 
             $("nav i").css({
                 "color": "#ffffff"
@@ -39,7 +39,7 @@ $(document).ready(function() {
         $(".navbar>.container>button>span>i").toggleClass("fa-times fa-bars");
 
         if ($(".navbar>.container>button>span>i").hasClass('fa-times')) {
-            $(".navbar>.container>div>ul>li>button").removeClass('btn-outline-light').addClass('btn-outline-primary');
+            $(".navbar>.container>div>ul>li>a>button").removeClass('btn-outline-light').addClass('btn-outline-primary');
             $(".navbar").css({
                 "background-color": "#ffffff",
                 "box-shadow": "0 0.5rem 1rem rgba(0, 0, 0, 0.15)",
