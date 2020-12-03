@@ -65,10 +65,9 @@ nav button:focus {
 
 @media screen and (max-width:767px) {
     .myTitle p:nth-child(1) {
-        font-size: 5rem;
-        line-height: 4.2rem;
-        padding-top: 13vh;
-        background: purple;
+        font-size: 4.2rem;
+        line-height: 4.5rem;
+        padding-top: 10vh;
     }
 }
 
@@ -82,8 +81,8 @@ nav button:focus {
 
 @media screen and (max-width:767px) {
     .myTitle p:nth-child(2) {
-        font-size: 2.8rem;
-        background-color: pink;
+        font-size: 2.5rem;
+        letter-spacing: 4px;
     }
 }
 
