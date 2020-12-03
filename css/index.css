@@ -79,6 +79,12 @@ nav button:focus {
     letter-spacing: 6px;
 }
 
+@media (max-width: 768px) {
+    .myTitle p:nth-child(2) {
+        font-size: 2.5rem;
+    }
+}
+
 .myLine {
     width: 1px;
     height: 50vh;
@@ -136,6 +142,8 @@ nav button:focus {
 
 #myPic {
     object-fit: contain;
+    margin: auto;
+    display: block;
 }
 
 figure {
