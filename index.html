@@ -27,6 +27,9 @@
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="/js/category-filter.js"></script>
 
+    <!-- animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
 </head>
 
 
@@ -319,6 +322,14 @@
                     var s = document.getElementsByTagName('script')[0];
                     s.parentNode.insertBefore(ga, s);
                 })();
+            </script>
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    $('.category-button').click(function() {
+                        $('.filter>figure>img').fadeToggle(500);
+
+                    });
+                });
             </script>
 
         </section>
