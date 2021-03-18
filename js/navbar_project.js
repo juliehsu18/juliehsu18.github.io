@@ -4,10 +4,11 @@ $(document).ready(function() {
 
 
             $(".navbar").css({
-                "background-color": "#ffffff",
+                "background-color": "#343a40",
                 "box-shadow": "0 0.5rem 1rem rgba(0, 0, 0, 0.15)",
                 "transition": "0.8s ease-in-out",
             });
+
 
 
 
@@ -29,7 +30,7 @@ $(document).ready(function() {
 
         if ($(".navbar>.container>button>span>i").hasClass('fa-times')) {
             $(".navbar").css({
-                "background-color": "#ffffff",
+                "background-color": "#343a40",
                 "box-shadow": "0 0.5rem 1rem rgba(0, 0, 0, 0.15)",
             });
 

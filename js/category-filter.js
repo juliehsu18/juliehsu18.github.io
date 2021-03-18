@@ -1,5 +1,6 @@
 (function($) {
     $.fn.categoryFilter = function(selector) {
+        $('.other').hide();
         this.click(function() {
             var categoryValue = $(this).attr('data-filter');
             $(this).addClass('active').siblings().removeClass('active');
